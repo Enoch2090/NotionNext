@@ -48,9 +48,11 @@ const BLOG = {
       // 字体CSS 例如 https://npm.elemecdn.com/lxgw-wenkai-webfont@1.6.0/style.css
       FONT_URL: [
             // 'https://npm.elemecdn.com/lxgw-wenkai-webfont@1.6.0/style.css',
-            'https://fonts.googleapis.com/css?family=Bitter&display=swap',
+            // 'https://fonts.googleapis.com/css?family=Bitter&display=swap',
             // 'https://fonts.googleapis.com/css2?family=Noto+Serif+SC&display=swap'
-            'https://cdn.jsdelivr.net/npm/@fontsource/noto-serif-sc@5.0.11/chinese-simplified-500.min.css'
+            // 'https://cdn.jsdelivr.net/npm/@fontsource/noto-serif-sc@5.0.11/chinese-simplified-500.min.css',
+            // 'https://cdn.jsdelivr.net/npm/cn-fontsource-lxgw-neo-zhi-song-chs-regular-lxgw-neo-zhi-song/font.css',
+            'https://cdn.jsdelivr.net/npm/cn-fontsource-source-han-serif-sc-vf-regular/font.css',
       ],
       // 无衬线字体
       FONT_SANS: [
@@ -74,9 +76,11 @@ const BLOG = {
       ],
       // 衬线字体
       FONT_SERIF: [
-            'Bitter',
+            '"PT Serif"',
             // '"LXGW WenKai"',
-            '"Noto Serif SC"',
+            // '"LXGW Neo ZhiSong CHS"',
+            // '"Noto Serif SC"',
+            '"Source Han Serif SC VF"',
             'SimSun',
             '"Times New Roman"',
             'Times',
