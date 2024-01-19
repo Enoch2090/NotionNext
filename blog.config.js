@@ -49,7 +49,8 @@ const BLOG = {
       FONT_URL: [
             // 'https://npm.elemecdn.com/lxgw-wenkai-webfont@1.6.0/style.css',
             'https://fonts.googleapis.com/css?family=Bitter&display=swap',
-            'https://fonts.googleapis.com/css2?family=Noto+Serif+SC&display=swap'
+            // 'https://fonts.googleapis.com/css2?family=Noto+Serif+SC&display=swap'
+            'https://cdn.jsdelivr.net/npm/@fontsource/noto-serif-sc@5.0.11/chinese-simplified-500.min.css'
       ],
       // 无衬线字体
       FONT_SANS: [
